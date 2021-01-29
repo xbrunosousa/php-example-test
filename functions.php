@@ -12,8 +12,8 @@ class Application
 
   public function __construct($quantity, $totalGames)
   {
-    $this->quantity = $quantity;
-    $this->totalGames = $totalGames;
+    $this->set('quantity', $quantity);
+    $this->set('totalGames', $totalGames);
   }
 
   public function get($item)
