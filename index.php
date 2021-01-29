@@ -1,8 +1,6 @@
 <?php
 require('./functions.php');
 $app = new MonetizzeTest\Application(6, 10);
-$app->generateGames();
-// $app->generateGames();
 ?>
 
 <!DOCTYPE html>
